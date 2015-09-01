@@ -32,7 +32,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez, Abiel Tomás Parra Hernández
 		<preference name="HideKeyboardFormAccessoryBar" value="true" />
 		<preference name="SuppressesIncrementalRendering" value="true" />
 		<preference name="android-minSdkVersion" value="16" />
-		<preference name="android-maxSdkVersion" value="23" />
+		<preference name="android-maxSdkVersion" value="22" />
 		<preference name="android-targetSdkVersion" value="23" />
 		<preference name="android-installLocation" value="auto" />
 		<preference name="SplashScreenDelay" value="4000" />
