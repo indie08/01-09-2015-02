@@ -1,13 +1,29 @@
+	$(document).ready(function() {
+		$('#return').click(function(evento) {
+			$('#back-btn').fadeOut('fast');
+				}),
+	$(document).ready(function() {
+			$('#return').click(function(){
+				$('.rightTotal').animate({"margin-left":"100%"}),
+				$('#title0').fadeOut('fast');
+				});
+			});
+		
 
+	});
+	
+	
 	$(document).ready(function(){
  		$("#miboton").click(function(){
-    	$("#title").html("<p>Nuevo contenido de la capa</p>");
+		$('#title0').fadeIn('fast'),
+    	$("#title0").html("<p>Artes- escenicas</p>");
  });
 });	
 
 	$(document).ready(function(){
  		$("#boton").click(function(){
-    	$("#title").html("<p>contenido de la capa</p>");
+		$('#title0').fadeIn('fast'),
+    	$("#title0").html("<p>Cineclub</p>");
 		});
      
 }),
@@ -36,19 +52,3 @@
 	}
 	
 
-	$(document).ready(function() {
-		$('#return').click(function(evento) {
-			$('#back-btn').fadeOut('fast');
-				}),
-	$(document).ready(function() {
-			$('#return').click(function(){
-				$('.rightTotal').animate({"margin-left":"100%"})
-				});
-			}),
-	$(document).ready(function() {
-			$('#return').click(function(evento){
-				$('#title0').fadeIn('fast');
-				});
-			});			
-
-	});
