@@ -103,7 +103,13 @@ body{
 	transform:translate3d(100%,0,0);
 	overflow:scroll;
 }
-.rightTotal #load-async {
+.rightTotal #load-async{
+	background:#066;
+	margin-top:20px;}
+ .reload a img{
+	float:right;
+	height:25px;
+    margin-right:5px;
 }
 #boton{
 	top:60px;
