@@ -37,6 +37,12 @@ body{
 	position:fixed;
 	
 }
+ .reload a img{
+	float:right;
+	height:25px;
+    margin-right:5px;
+}
+
 #back-btn{display:none;}
 #back-btn  img{
 	margin-top:10px;
@@ -49,6 +55,7 @@ body{
 	color:#FFF;
 	margin-top:0;}
 #title img{
+	display:inline-block;
 	margin-top:7px;
 	margin-left:5px;
 	height:25px;
@@ -61,7 +68,8 @@ body{
 	margin-left:10px;
 }
 #title0 p{
-	font-size:18px;}
+	font-size:18px;
+	display:inline-block;}
 .X{width:100%;height:40px;}
 .section{
 	background:#3FC;
@@ -95,9 +103,7 @@ body{
 	transform:translate3d(100%,0,0);
 	overflow:scroll;
 }
-.rightTotal #load-async{
-	margin-bottom: 40px;	
-
+.rightTotal #load-async {
 }
 #boton{
 	top:60px;
