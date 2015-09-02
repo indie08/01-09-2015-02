@@ -6,18 +6,18 @@
 <link rel="stylesheet" type="text/css" href="page.css" />
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
     <script type="text/javascript" charset="utf-8">
 
     // Wait for device API libraries to load//
     function onLoad() {
-        document.addEventListener("deviceready", onDeviceReady, false);
+        document.addEventListener("deviceready", onDeviceReady, true);
     }
 
     // device APIs are available //
     function onDeviceReady() {
         // Register the event listener
-        document.addEventListener("backbutton", onBackKeyDown, false);
+        document.addEventListener("backbutton", onBackKeyDown, true);
     }
 
     // Handle the back button //
@@ -31,8 +31,8 @@
 </head>
 <div class="page">
     <div class="center">
-        <div id="micapa">Capa con algo de texto</div>
-    <a id="miboton" href="#">Cambiar el contenido</a>
+        <div class="header"><div id="back-btn"><a id="return" href="#"><img src="img/mus.png"/></a></div><div id="title"><img src="img/prueba.png"/><div id="title0"><img src="img/prueba.png"/></div>
+    <a id="miboton" href="#">Cambiar el contenido</a></div>
     
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <a id="boton" href="#">Cambiar el contenido</a>aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>

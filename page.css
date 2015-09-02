@@ -22,7 +22,34 @@
 									   from(#4D9C41),
 									   to(#19911D),
 									   color-stop(.6,#54DE5D))
-}.page{
+}
+*{
+	padding:0;
+	margin:0;
+}
+.header{height:40px;}
+#back-btn{display:none;}
+#back-btn  img{
+	margin-top:10px;
+	margin-left:5px;
+	height:20px;
+	src:url(img/mus.png);
+	float:left;
+}
+#title img{
+	margin-top:7px;
+	margin-left:10px;
+	height:30px;
+}
+#title0{
+	margin-top:7px;
+	margin-left:10px;
+	height:30px;
+	display:none;
+}
+
+
+.page{
 	background:#39F;
 	position:absolute;
 	top:0;

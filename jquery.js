@@ -1,19 +1,26 @@
+
 	$(document).ready(function(){
  		$("#miboton").click(function(){
-    	$("#micapa").html("Nuevo contenido de la capa");
+    	$("#title").html("<p>Nuevo contenido de la capa</p>");
  });
 });	
 
 	$(document).ready(function(){
  		$("#boton").click(function(){
-    	$("#micapa").html("contenido de la capa");
+    	$("#title").html("<p>contenido de la capa</p>");
 		});
      
 }),
 	$(document).ready(function(){
     	$('#boton').click(function(){
 			$("#rightTotal").animate({"margin-left": "-100%"});
-    })
+    }),
+	
+	$(document).ready(function() {
+		$('#boton').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
 });
 	$(document).on("ready", main);
 	
@@ -28,3 +35,20 @@
 		
 	}
 	
+
+	$(document).ready(function() {
+		$('#return').click(function(evento) {
+			$('#back-btn').fadeOut('fast');
+				}),
+	$(document).ready(function() {
+			$('#return').click(function(){
+				$('.rightTotal').animate({"margin-left":"100%"})
+				});
+			}),
+	$(document).ready(function() {
+			$('#return').click(function(evento){
+				$('#title0').fadeIn('fast');
+				});
+			});			
+
+	});
