@@ -23,11 +23,20 @@
 									   to(#19911D),
 									   color-stop(.6,#54DE5D))
 }
-*{
+body{
+	width:100%;
+	height:100;
 	padding:0;
 	margin:0;
 }
-.header{height:40px;}
+.page .center .header{
+	background:black;
+	width:100%;
+	margin-top:0;
+	height:40px;
+	position:fixed;
+	
+}
 #back-btn{display:none;}
 #back-btn  img{
 	margin-top:10px;
@@ -42,10 +51,16 @@
 	height:30px;
 }
 #title0{
+	display:none;
+}
+#title0 img{
 	margin-top:7px;
 	margin-left:10px;
 	height:30px;
-	display:none;
+
+}
+.section{
+	margin-top:40px;
 }
 
 
