@@ -45,12 +45,9 @@ body{
 	src:url(img/mus.png);
 	float:left;
 }
-#title p{
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	size:10px;
-	text-wrap: suppress;
+#title {
 	color:#FFF;
-	margin-top:15px;}
+	margin-top:0;}
 #title img{
 	margin-top:7px;
 	margin-left:5px;
