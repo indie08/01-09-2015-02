@@ -78,4 +78,7 @@ $(document).ready(function(){
 			});			
 });
 
-$.ajaxSetup({url: "http://www.farodeoriente.org/prueba/musica.html", success: myCallback, cache: false});
+$(document).ready(function(){
+   var refreshId = setInterval(rightTotal, 30000);
+   $.ajaxSetup({ cache: false });
+ });
