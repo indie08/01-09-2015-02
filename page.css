@@ -106,10 +106,21 @@ body{
 .rightTotal #load-async{
 	background:#066;
 	margin-top:20px;}
- .reload a img{
+.rightTotal .reload{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width:10%;
+    line-height: 36px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+.rightTotal .reload a img{
+	z-index:2;
 	float:right;
-	height:25px;
-    margin-right:5px;
+		height:25px;
+	margin-top:6px;
 }
 #boton{
 	top:60px;

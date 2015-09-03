@@ -7,7 +7,7 @@
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 <script>
-function recarga(){
+function recargar(){
 location.href=location.href
 }
 setInterval('recargar()',20000)
@@ -50,7 +50,10 @@ setInterval('recargar()',20000)
     </div>
     </div>
       
-      <div class="rightTotal" id="rightTotal">  
+      <div class="rightTotal" id="rightTotal">
+              <div class="reload">
+        <a href="javascript:location.reload()"><img src="img/reload.png"/></a></div>
+  
 
       <div id="load-async"></div>
       </div>

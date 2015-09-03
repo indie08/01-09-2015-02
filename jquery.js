@@ -51,4 +51,10 @@
 		
 	}
 	
-
+$(document).ready(function(){
+   $("#boton").click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/cineclub.html");
+   });
+})
