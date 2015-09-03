@@ -4,23 +4,23 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="page.css" />
+<link rel="stylesheet" type="text/css" href="slide-c.css" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="ajax.js"></script>
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
     <script type="text/javascript" charset="utf-8">
-
     // Wait for device API libraries to load//
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, true);
     }
-
     // device APIs are available //
     function onDeviceReady() {
         // Register the event listener
         document.addEventListener("backbutton", onBackKeyDown, true);
     }
-
     // Handle the back button //
     function onBackKeyDown() {
     }
@@ -39,11 +39,86 @@
 
    
     </div>
-    <div class="X"></div><!--solo es la parte de atras del header NO QUITAR-->
-    <div class="section">
+    <div class="X"></div><!--solo es la parte trasera del header NO QUITAR-->
+<section>
+<input type="radio" name="slider-select-element" id="element1" checked="checked" />
+                <input type="radio" name="slider-select-element" id="element2" />
+                <input type="radio" name="slider-select-element" id="element3" />
+                <input type="radio" name="slider-select-element" id="element4" />
+                <input type="radio" name="slider-select-element" id="element5" />
+                <input type="radio" name="slider-select-element" id="element6" />
+                <input type="radio" name="slider-select-element" id="element7" />
+                <input type="radio" name="slider-select-element" id="element8" />
+                
+                <div id="slider-container">
+                    <div id="slider-box">
+                        <div class="slider-element">
+                            <div class="element-1">
+                            <a id="miboton"  href="#"><img  src="img/especiales-01.jpg" /></a>
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-2">
+                              <a href="#"><img src="img/galeria-01.jpg"/></a>
+
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-3">
+                             <a href="#"><img src="img/escenicas-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-4">
+                             <a id="boton" href="#"><img src="img/cineclub-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-5">
+                             <a href="#"><img src="img/clubhouse-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-6">
+                             <a href="#"><img src="img/infantil-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-7">
+                             <a href="#"><img src="img/literatura-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        <div class="slider-element">
+                            <div class="element-8">
+                             <a href="#"><img src="img/musica-01.jpg"/></a>
+
+                            </div>                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="slider-arrows">
+                    <label for="element1"></label>
+                    <label for="element2"></label>
+                    <label for="element3"></label>
+                    <label for="element4"></label>
+                    <label for="element5"></label>
+                    <label for="element6"></label>
+                    <label for="element7"></label>
+                    <label for="element8"></label>
+                </div>
+            </section>   
+       <div class="section">
 <a id="boton" href="#">Cambiar el contenido</a>
 <a id="miboton" href="#"> Excepteur sint</a>
-    </div>
+    </div>                     
+
     <div class="footer"></div>
     </div>
       
