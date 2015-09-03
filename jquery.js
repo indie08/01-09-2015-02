@@ -57,4 +57,23 @@ $(document).ready(function(){
 	  $('#rightTotal').text('Cargando....');
       $("#rightTotal").load("http://www.farodeoriente.org/prueba/cineclub.html");
    });
-})
+});
+
+$(document).ready(function(){
+   $("#miboton").click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/musica.html");
+   });
+});
+	$(document).ready(function(){
+    	$('#miboton').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#miboton').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
